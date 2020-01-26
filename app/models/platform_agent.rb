@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "user_agent"
-
 class PlatformAgent
   Browser = Struct.new(:browser, :version)
 
