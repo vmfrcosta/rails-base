@@ -1,0 +1,107 @@
+.w {
+  &-1 {
+    width: 1px;
+  }
+
+  &-30 {
+    width: 30px;
+  }
+
+  &-32 {
+    width: 32px;
+  }
+
+  &-34 {
+    width: 34px;
+  }
+
+  &-40 {
+    width: 40px;
+  }
+
+  &-50 {
+    width: 50px;
+  }
+
+  &-68 {
+    width: 68px;
+  }
+
+  &-72 {
+    width: 72px;
+  }
+
+  &-75 {
+    width: 75px;
+  }
+
+  &-100 {
+    width: 100px;
+  }
+
+  &-150 {
+    width: 150px;
+  }
+
+  &-160 {
+    width: 160px;
+  }
+
+  &-180 {
+    width: 180px;
+  }
+
+  &-200 {
+    width: 200px;
+  }
+
+  &-250 {
+    width: 250px;
+  }
+
+  &-325 {
+    width: 325px;
+  }
+
+  &-400 {
+    width: 400px;
+  }
+
+  &-500 {
+    width: 500px;
+  }
+
+  &-620 {
+    width: 620px;
+  }
+
+  &-720 {
+    width: 720px;
+  }
+
+  &-30p {
+    width: 30%;
+  }
+
+  &-61p {
+    width: 61%;
+  }
+
+  &-37p {
+    width: 37%;
+  }
+
+  &-100p {
+    width: 100%;
+  }
+
+  &-a {
+    width: auto !important;
+  }
+
+  &-mx {
+    &-100p {
+      max-width: 100%;
+    }
+  }
+}

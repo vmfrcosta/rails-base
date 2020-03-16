@@ -1,0 +1,121 @@
+.flx {
+  display: flex;
+
+  // Justify Content
+
+  &-jc {
+    justify-content: center;
+
+    &-btw {
+      justify-content: space-between;
+    }
+
+    &-rnd {
+      justify-content: space-around;
+    }
+
+    &-fe {
+      justify-content: flex-end;
+    }
+
+    &-fs {
+      justify-content: flex-start;
+    }
+
+    &-str {
+      justify-content: stretch;
+    }
+  }
+
+  // Align Items
+
+  &-ai {
+    align-items: center;
+
+    &-fs {
+      align-items: flex-start;
+    }
+
+    &-fe {
+      align-items: flex-end;
+    }
+  }
+
+  // Align self
+  &-as {
+    align-self: center;
+
+    &-fe {
+      align-self: flex-end;
+    }
+  }
+
+  // Wrap
+
+  &-wrp {
+    flex-wrap: wrap;
+  }
+
+  // Direction
+
+  &-drc {
+    flex-direction: column;
+  }
+
+  // Basis
+
+  &-bss {
+    &-50 {
+      flex-basis: 50px;
+    }
+
+    &-75 {
+      flex-basis: 75px;
+    }
+
+    &-200 {
+      flex-basis: 200px;
+    }
+
+    &-260 {
+      flex-basis: 260px;
+    }
+  }
+
+  // Fix a moronic flexbox behavior where parents will force themselves to fit their children.
+
+  &-fix {
+    min-width: 0;
+  }
+
+  // Modifiers (Special behavior by combining rules)
+
+  &--cnt {
+    justify-content: center;
+    align-items: center;
+  }
+
+  &--fld {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+  }
+
+  &--grw {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  &--fxd {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  &--f {
+    flex: 0 0 100%;
+  }
+
+  &--h {
+    flex: 1 1 50%;
+  }
+}
